@@ -282,7 +282,7 @@ else
   x_=x
  end if
  if (z.lt.0.d0) then !!beyond bottom
-  _=-z
+  z_=-z
  elseif (z.gt.1.d0) then !!beyond top
   z_=2.d0-z  
  else !!domain interior
